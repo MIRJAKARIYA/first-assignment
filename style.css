@@ -1,9 +1,8 @@
 
 body{
     font-size: 30px;
-
 }
-section.sec1,section.sec2{
+section.sec1,div.parent{
     width: 80%;
     min-height: 200px;
     display: flex;
@@ -66,4 +65,27 @@ section.sec1 p{
     border-radius: 5px;
     font-size: 20px;
 }
-
+section.sec2 h1{
+    text-align: center;
+    font-family: cursive;
+    color: darkblue;
+}
+div.parent{
+    justify-content: space-between;
+    padding: 0;
+}
+.one_third_width{
+    width: 30%;
+    min-height: 100px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+.one_third_width img{
+    width: 50%;
+    display: block;
+}
+.one_third_width div.child{
+    font-size: 20px;
+    margin: 15px;
+    margin-top: -13px;
+}
