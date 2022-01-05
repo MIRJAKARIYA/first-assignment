@@ -14,7 +14,7 @@ section.sec1,div.parent,section.sec3{
 }
 .for_border_align{
     border-left: 4px solid;
-    border-image: linear-gradient(red,blue);
+    border-image: linear-gradient(darkblue 2%,tomato);
     border-image-slice: 1;
     height: 110px;
     width: 100%;
@@ -126,5 +126,31 @@ section.sec3{
 #child_of_dev{
     width: 85%;
     margin-left: 3%;
-
+}
+section.sec4{
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 93% 85%;
+    min-height: 500px;
+    display: flex;
+}
+.sec4_dev{
+    width: 50%;
+}
+.sec4_img{
+    width: 50%;
+    margin-left: 15%;
+}
+.sec4_img img{
+    width: 65%;
+    height: 400px;
+    margin-left: 12%;
+    
+}
+#child_of_sec4_dev{
+    margin-left: 23%;
+    width: 100%;
 }
