@@ -2,7 +2,7 @@
 body{
     font-size: 30px;
 }
-section.sec1,div.parent{
+section.sec1,div.parent,section.sec3{
     width: 80%;
     min-height: 200px;
     display: flex;
@@ -58,8 +58,7 @@ section.sec1 p{
 }
 .hire_me_button{
     text-decoration: none;
-    background-image: linear-gradient(to right,#cc2b5e,#753a88
-    );
+    background-image: linear-gradient(to right,#cc2b5e,#753a88);
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
@@ -103,4 +102,29 @@ div.parent{
 }
 #back_goal{
     background-color: rgba(0, 139, 139, 0.342);
+}
+section.sec3{
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 6% 30%;
+}
+.coding_pic_part{
+    width: 40%;
+}
+.coding_pic_part img{
+    width: 70%;
+    height: 400px;
+    margin-left: 25%;
+
+}
+.dev_without_limits{
+    width: 60%;
+}
+#child_of_dev{
+    width: 85%;
+    margin-left: 3%;
+
 }
