@@ -2,3 +2,43 @@
     --head_font: 'Lobster', cursive;
     --para_font: 'Playfair Display', serif;
 }
+body{
+    font-size: 30px;
+
+}
+section.sec1{
+    width: 80%;
+    min-height: 200px;
+    display: flex;
+    background-color: blue;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.half_width{
+    width: 45%;
+    min-height: 100px;
+    background-color: yellow;
+}
+.for_border_align{
+    border-left: 4px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+    height: 116px;
+    width: 100%;
+    display: flow-root;
+
+}
+section.sec1 h1{
+    padding-left: 10px;
+    font-size: 55px;
+    color: black;
+    margin-top: -9px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    word-spacing: 7px;
+
+
+}
+.span_color{
+    color: orange;
+}
