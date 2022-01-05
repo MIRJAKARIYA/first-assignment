@@ -65,6 +65,9 @@ section.sec1 p{
     border-radius: 5px;
     font-size: 20px;
 }
+section.sec2{
+    margin-top: 100px;
+}
 section.sec2 h1{
     text-align: center;
     font-family: cursive;
@@ -86,6 +89,18 @@ div.parent{
 }
 .one_third_width div.child{
     font-size: 20px;
-    margin: 15px;
+    margin: 20px;
     margin-top: -13px;
+}
+.one_third_width div.child p{
+    margin-top: -8px;
+}
+#back_mission{
+    background-color: rgba(85, 107, 47, 0.342);
+}
+#back_vission{
+    background-color: rgba(184, 135, 11, 0.342);
+}
+#back_goal{
+    background-color: rgba(0, 139, 139, 0.342);
 }
