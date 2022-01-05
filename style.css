@@ -1,44 +1,69 @@
-:root{
-    --head_font: 'Lobster', cursive;
-    --para_font: 'Playfair Display', serif;
-}
+
 body{
     font-size: 30px;
 
 }
-section.sec1{
+section.sec1,section.sec2{
     width: 80%;
     min-height: 200px;
     display: flex;
-    background-color: blue;
     margin: 50px auto;
-    justify-content: space-between;
 }
 .half_width{
-    width: 45%;
+    width: 50%;
     min-height: 100px;
-    background-color: yellow;
 }
 .for_border_align{
     border-left: 4px solid;
     border-image: linear-gradient(red,blue);
     border-image-slice: 1;
-    height: 116px;
+    height: 110px;
     width: 100%;
+    margin-top: 50px;
     display: flow-root;
 
+}
+.left_part_moving_down{
+    margin-top: 70px;
 }
 section.sec1 h1{
     padding-left: 10px;
     font-size: 55px;
-    color: black;
-    margin-top: -9px;
+    color:darkblue;
+    margin-top: -14px;
     font-family: 'Lobster', cursive;
     font-weight: 400;
     word-spacing: 7px;
-
-
+}
+section.sec1 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 .span_color{
-    color: orange;
+    color: tomato;
 }
+#text_mod{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.half_width img{
+    width: 70%;
+    height: 400px;
+}
+.making_flex{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.hire_me_button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,#cc2b5e,#753a88
+    );
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
