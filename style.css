@@ -154,3 +154,42 @@ section.sec4{
     margin-left: 23%;
     width: 100%;
 }
+section.sec5{
+    width: 100%;
+}
+section.sec5 h1{
+    text-align: center;
+    color: darkblue;
+}
+.sec5_child{
+    display: flex;
+    width: 100%;
+}
+#html_css_width{
+    width: 80%;
+    height: 500px;
+}
+
+.meter_start{
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+    font-weight: 600;
+    color: purple;
+}
+.meter_end{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 1%;
+    font-weight: 600;
+    color:purple;
+}
+meter{
+    width: 60%;
+}
+meter::-webkit-meter-bar{
+    background-color: wheat;
+}
+meter::-webkit-meter-optimum-value{
+    background-image: linear-gradient(to right,Navy,brown);
+}
