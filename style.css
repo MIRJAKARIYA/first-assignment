@@ -70,7 +70,7 @@ section.sec2{
 }
 section.sec2 h1{
     text-align: center;
-    font-family: cursive;
+    font-family: 'Lobster';
     color: darkblue;
 }
 div.parent{
@@ -161,6 +161,7 @@ section.sec5{
 section.sec5 h1{
     text-align: center;
     color: darkblue;
+    font-family: 'Lobster';
 }
 .sec5_child{
     display: flex;
@@ -179,6 +180,7 @@ section.sec5 h1{
     font-size: 20px;
     font-weight: 600;
     color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .meter_end{
     display: inline-block;
@@ -186,6 +188,7 @@ section.sec5 h1{
     margin-left: 1%;
     font-weight: 600;
     color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 meter{
     width: 60%;
@@ -229,7 +232,7 @@ div.sec6_child{
 div.sec6_grandchild p{
     text-align: left;
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 div.sec6_grandchild h4::after{
     content: '';
@@ -239,6 +242,7 @@ div.sec6_grandchild h4::after{
 }
 div.sec6_grandchild h4{
     display: inline-block;
+    font-size: 28px;
 }
 #margin_from_sec6{
     margin-top: 50px;
@@ -248,5 +252,8 @@ div.sec6_grandchild a{
     color: wheat;
 }
 div.sec6_grandchild a:hover{
-    color: blanchedalmond;
+    color: #753a88;
+}
+div.sec6_grandchild a:active{
+    color: red;
 }
