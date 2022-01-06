@@ -1,6 +1,7 @@
 
 body{
     font-size: 30px;
+    margin: 0;
 }
 section.sec1,div.parent,section.sec3{
     width: 80%;
@@ -164,10 +165,12 @@ section.sec5 h1{
 .sec5_child{
     display: flex;
     width: 100%;
+    margin-top: 80px;
 }
 #html_css_width{
     width: 80%;
     height: 500px;
+    margin-left: 15%;
 }
 
 .meter_start{
@@ -192,4 +195,58 @@ meter::-webkit-meter-bar{
 }
 meter::-webkit-meter-optimum-value{
     background-image: linear-gradient(to right,Navy,brown);
+}
+
+.extra_margin{
+    margin-top: 130px;
+}
+
+section.sec6{
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    display: flow-root;
+}
+section.sec6 h3{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+section.sec6 p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+div.sec6_child{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+}
+div.sec6_grandchild p{
+    text-align: left;
+    margin-top: -10px;
+    font-size: 20px;
+}
+div.sec6_grandchild h4::after{
+    content: '';
+    height: 2px;
+    background-color: white;
+    display: block;
+}
+div.sec6_grandchild h4{
+    display: inline-block;
+}
+#margin_from_sec6{
+    margin-top: 50px;
+}
+div.sec6_grandchild a{
+    text-decoration: none;
+    color: wheat;
+}
+div.sec6_grandchild a:hover{
+    color: blanchedalmond;
 }
