@@ -24,7 +24,7 @@ section.sec1,div.parent,section.sec3{
     min-height: 100px;
 }
 .for_border_align{
-    border-left: 4px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(darkblue,tomato);
     border-image-slice: 1;
     height: 110px;
