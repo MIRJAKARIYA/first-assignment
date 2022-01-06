@@ -3,6 +3,16 @@ body{
     font-size: 30px;
     margin: 0;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color:white;
+}
 section.sec1,div.parent,section.sec3{
     width: 80%;
     min-height: 200px;
@@ -46,7 +56,8 @@ section.sec1 p{
 #text_mod{
     display: block;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .half_width img{
     width: 70%;
@@ -263,6 +274,7 @@ div.sec6_grandchild p{
     text-align: left;
     margin-top: -10px;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div.sec6_grandchild h4::after{
     content: '';
@@ -273,6 +285,7 @@ div.sec6_grandchild h4::after{
 div.sec6_grandchild h4{
     display: inline-block;
     font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #margin_from_sec6{
     margin-top: 50px;
